@@ -100,5 +100,17 @@ class FilmeDAO {
       System.out.println("Erro na alteração: " + e.getMessage());
     }
   }
-
+  //delete
+  // update() atualizar o filme passado como parâmetro...
+  public void delete(Filme filme) {
+    try {
+      // Comando de UPDATE no banco
+      String sql = "DELETE FROM filme WHERE id=?";
+      PreparedStatement delete = this.conexao.prepareStatement(sql);
+      delete.setInt(1, filme.getId());
+      delete.execute();
+    } catch (Exception e) {
+      System.out.println("Erro na remoção: " + e.getMessage());
+    }
+  }
 }

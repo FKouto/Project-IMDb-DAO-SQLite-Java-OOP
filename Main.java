@@ -45,5 +45,13 @@ class Main {
     for (Filme filme : filmeLista) {
       System.out.println(filme);
     }
+    System.out.println("Removendo...");
+    Filme flash11 = filmeDAO.getById(9);
+    filmeDAO.delete(flash11);
+    
+    filmeLista = filmeDAO.getAll();
+    for (Filme filme : filmeLista) {
+      System.out.println(filme);
+    }
   }
 }
