@@ -1,4 +1,4 @@
-# JavaOopImdbDaoSqlite
+# Project IMDb DAO SQLite Java with OOP
 Este é um projeto em Java desenvolvido durante a disciplina de Programação de Soluções Computacionais. O projeto foi construído seguindo os princípios de programação orientada a objetos e implementando o padrão de design DAO (Data Access Object), que facilita a interação com um banco de dados SQLite.
 
 O objetivo principal deste projeto é criar uma solução que permita a conexão com o banco de dados SQLite, utilizando as operações do CRUD (Create, Read, Update, Delete). Com o design pattern DAO, é possível abstrair as funcionalidades de acesso aos dados, proporcionando uma camada de abstração que simplifica a interação com o banco de dados.
