@@ -5,3 +5,5 @@ pom.xml
 .project
 .classpath
 .breakpoints
+target/dependency
+.settings
